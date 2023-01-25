@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tailwindnetflix/static/css/main.a7100592.css",
+    "main.js": "/tailwindnetflix/static/js/main.fb78f63d.js",
+    "index.html": "/tailwindnetflix/index.html",
+    "main.a7100592.css.map": "/tailwindnetflix/static/css/main.a7100592.css.map",
+    "main.fb78f63d.js.map": "/tailwindnetflix/static/js/main.fb78f63d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7100592.css",
+    "static/js/main.fb78f63d.js"
+  ]
+}
