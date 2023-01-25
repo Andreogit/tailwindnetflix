@@ -1,5 +1,5 @@
 import { React } from 'react'
-
+import img from '../Assets/forkids.png'
 function KidsProfiles() {
   return (
     <div className='flex min-[1500px]:pl-[200px] border-b-8 py-12 border-[#222] '>
@@ -28,7 +28,7 @@ function KidsProfiles() {
           </h2>
         </div>
         <div className="imgcontainer w-[80%] max-[400px]:w-full">
-          <img src="./Assets/forkids.png" alt="mobile" />
+          <img src={img} alt="mobile" />
         </div>
       </div>
     </div>

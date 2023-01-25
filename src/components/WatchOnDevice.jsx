@@ -1,5 +1,5 @@
 import { React } from 'react'
-
+import devicepile from '../Assets/device-pile.png'
 function WatchOnDevice() {
   return (
     <div className='flex border-b-8 px-12 overflow-hidden py-12 border-[#222] '>
@@ -24,12 +24,13 @@ function WatchOnDevice() {
         max-[1300px]:text-[1.4rem]
         max-[948px]:text-[1.3rem]
         max-[640px]:text-[1.2rem]
+        max-[640px]:px-4
         max-[550px]:text-[1.1rem]'>
             Дивіться фільми й телесеріали без обмежень на смартфоні, планшеті, ноутбуці й телевізорі без доплат.
           </h2>
         </div>
         <div className="imgcontainer max-[400px]:w-full">
-          <img src="./Assets/device-pile.png" alt="mobile" />
+          <img src={devicepile} alt="mobile" />
         </div>
       </div>
     </div>

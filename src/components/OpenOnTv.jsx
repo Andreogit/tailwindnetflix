@@ -1,5 +1,5 @@
 import { React } from 'react'
-
+import tv from '../Assets/tv.png'
 function OpenOnTv() {
   return (
     <div className='px-[45px] py-[45px] border-b-[8px] border-[#222]'>
@@ -26,7 +26,7 @@ function OpenOnTv() {
           </h2>
         </div>
         <div className="img-container m-auto relative flex flex-initial h-full w-[80%] overflow-hidden">
-          <img className='' src="./Assets/tv.png" alt="TV" />
+          <img className='' src={tv} alt="TV" />
         </div>
       </div>
     </div>

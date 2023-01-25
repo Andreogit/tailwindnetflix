@@ -1,5 +1,7 @@
 import { React } from 'react'
-
+import mobile from '../Assets/mobile.jpg'
+import boxshot from '../Assets/boxshot.png'
+import icon from '../Assets/download-icon.gif'
 function DownloadAndWatch() {
   return (
     <div className='DownloadAndWatch flex min-[1600px]:px-[20%] pl-[10%] pb-10 pr-[15%] max-[950px]:px-0 py-[20px] border-b-8 border-[#222] relative'>
@@ -31,7 +33,7 @@ function DownloadAndWatch() {
         <div className="img-container min-h-full flex items-center flex-initial max-[950px]:mt-[-10%] max-[950px]:pt-[3%] max-[350px]:mb-[25px] max-[350px]:mt-[-23%] max-[266px]:hidden">
           <div className="animationcontainer overflow-hidden min-[950px]:ml-[-15%] flex items-center justify-center max-[950px]:pt-[-10%] max-[950px]:mb-[10%] max-[366px]:mb-[50px]">
             <div className="imgcontainer w-[80%] max-[400px]:w-full">
-              <img src="./Assets/mobile.jpg" alt="mobile" />
+              <img src={mobile} alt="mobile" />
             </div>
             <div className="download border-2 border-[#333] rounded-[20px] flex bg-black
          items-center absolute bottom-[15%] max-[950px]:bottom-[5rem]  px-3 py-2 z-10 w-[20rem]
@@ -45,9 +47,9 @@ function DownloadAndWatch() {
               max-[600px]:h-[4rem]
               max-[450px]:h-[3rem]
               ">
-                <img src="./Assets/boxshot.png" alt="" />
+                <img src={boxshot} alt="" />
               </div>
-              <div className="text flex flex-col">
+              <div className="text">
                 <h1 className='font-bold
           max-[1300px]:text-[1rem]
           max-[700px]:text-[.9rem]
@@ -59,8 +61,8 @@ function DownloadAndWatch() {
           max-[515px]:text-[.5rem]
                 '>Завантаження...</h2>
               </div>
-              <div className="gifcontainer absolute right-5">
-                <img className='h-[3rem]' src="./Assets/download-icon.gif" alt="download" />
+              <div className="gifcontainer absolute right-5 max-[400px]:right-2">
+                <img className='h-[3rem] max-[400px]:h-[1.8rem]' src={icon} alt="download" />
               </div>
             </div>
           </div>
