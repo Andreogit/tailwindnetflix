@@ -2,7 +2,7 @@ import { React } from 'react'
 
 function KidsProfiles() {
   return (
-    <div className='flex min-[1500px]:pl-[200px] border-b-8 pr-12 py-12 border-[#222] '>
+    <div className='flex min-[1500px]:pl-[200px] border-b-8 py-12 border-[#222] '>
       <div className="container flex flex-row-reverse justify-between items-center min-[1600px]:justify-center max-[950px]:flex-col m-auto
     ">
         <div className="text w-[50%] 
