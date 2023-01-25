@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tailwindnetflix/static/css/main.a7100592.css",
-    "main.js": "/tailwindnetflix/static/js/main.fb78f63d.js",
+    "main.css": "/tailwindnetflix/static/css/main.a2d6caf5.css",
+    "main.js": "/tailwindnetflix/static/js/main.f22b7725.js",
     "index.html": "/tailwindnetflix/index.html",
-    "main.a7100592.css.map": "/tailwindnetflix/static/css/main.a7100592.css.map",
-    "main.fb78f63d.js.map": "/tailwindnetflix/static/js/main.fb78f63d.js.map"
+    "main.a2d6caf5.css.map": "/tailwindnetflix/static/css/main.a2d6caf5.css.map",
+    "main.f22b7725.js.map": "/tailwindnetflix/static/js/main.f22b7725.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7100592.css",
-    "static/js/main.fb78f63d.js"
+    "static/css/main.a2d6caf5.css",
+    "static/js/main.f22b7725.js"
   ]
 }
