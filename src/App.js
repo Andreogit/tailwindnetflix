@@ -10,7 +10,7 @@ import {
 } from "./components/AllComponents";
 function App() {
   return (
-    <div className="App bg-black text-white my-0 mx-auto mmin-w-[300px]">
+    <div className="App bg-black text-white my-0 mx-auto min-w-[300px]">
       <Header />
       <Hero />
       <OpenOnTv />
