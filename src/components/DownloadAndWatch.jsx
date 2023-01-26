@@ -43,7 +43,7 @@ function DownloadAndWatch() {
           max-[420px]:bottom-8
           max-[320px]:bottom-4
          ">
-              <div className="imagecontainer h-[5rem] mr-4 max-[500px]:mr-2 inline-flex
+              <div className="imagecontainer h-[5rem] inline-flex shrink-0 
               max-[600px]:h-[4rem]
               max-[450px]:h-[3rem]
               'max-w-[100px] md:max-w-[50px]'
@@ -62,7 +62,7 @@ function DownloadAndWatch() {
           max-[515px]:text-[.5rem]
                 '>Завантаження...</h2>
               </div>
-              <div className="gifcontainer inline-flex5 max-[400px]:right-2">
+              <div className="gifcontainer inline-flex shrink-0 max-[400px]:right-2">
                 <img className='h-[3rem] max-[400px]:h-[1.8rem]' src={icon} alt="download" />
               </div>
             </div>
