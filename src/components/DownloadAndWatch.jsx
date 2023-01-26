@@ -5,7 +5,7 @@ import icon from '../Assets/download-icon.gif'
 function DownloadAndWatch() {
   return (
     <div className='DownloadAndWatch border-b-8 border-[#222]'>
-      <div className="container flex flex-row-reverse px-[70px] py-[25px] max-[500px]:px-2 justify-evenly items-center relative 
+      <div className="container flex m-auto flex-row-reverse px-[70px] py-[25px] max-[500px]:px-2 justify-evenly items-center relative 
       min-[1600px]:justify-center
       max-[950px]:flex-col
       ">
@@ -35,7 +35,7 @@ function DownloadAndWatch() {
             <div className="imgcontainer w-[80%] max-[400px]:w-full">
               <img src={mobile} alt="mobile" />
             </div>
-            <div className="download border-2 overflow-hidden flex border-[#333] rounded-[20px] bg-black
+            <div className="download border-2 overflow-hidden flex justify-between border-[#333] rounded-[20px] bg-black
          items-center absolute bottom-[15%] max-[950px]:bottom-[5rem] px-3 py-2 z-10 w-[20rem]
          max-[600px]:bottom-16
           max-[550px]:text-[1.1rem]
@@ -50,7 +50,7 @@ function DownloadAndWatch() {
               ">
                 <img src={boxshot} alt="stranger things" />
               </div>
-              <div className="text inline-flex flex-col">
+              <div className="text inline flex-col">
                 <h1 className='font-bold
           max-[1300px]:text-[1rem]
           max-[700px]:text-[.9rem]
@@ -62,7 +62,7 @@ function DownloadAndWatch() {
           max-[515px]:text-[.5rem]
                 '>Завантаження...</h2>
               </div>
-              <div className="gifcontainer inline-flex absolute right-5 max-[400px]:right-2">
+              <div className="gifcontainer inline-flex5 max-[400px]:right-2">
                 <img className='h-[3rem] max-[400px]:h-[1.8rem]' src={icon} alt="download" />
               </div>
             </div>
