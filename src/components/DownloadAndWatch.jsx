@@ -43,7 +43,7 @@ function DownloadAndWatch() {
           max-[420px]:bottom-8
           max-[320px]:bottom-4
          ">
-              <div className="imagecontainer h-[5rem] mr-[.6rem] inline-flex
+              <div className="imagecontainer h-[5rem] mr-4 max-[500px]:mr-2 inline-flex
               max-[600px]:h-[4rem]
               max-[450px]:h-[3rem]
               'max-w-[100px] md:max-w-[50px]'
