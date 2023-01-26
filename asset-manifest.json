@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tailwindnetflix/static/css/main.fc1d8ec2.css",
-    "main.js": "/tailwindnetflix/static/js/main.c7464f4b.js",
+    "main.css": "/tailwindnetflix/static/css/main.f7d0086f.css",
+    "main.js": "/tailwindnetflix/static/js/main.165ffb9d.js",
     "static/media/forkids.png": "/tailwindnetflix/static/media/forkids.c848e7463ab18b7783ba.png",
     "static/media/device-pile.png": "/tailwindnetflix/static/media/device-pile.8e6539e8bfc6937a0648.png",
     "static/media/mobile.jpg": "/tailwindnetflix/static/media/mobile.063578d5b6d5ab4155ec.jpg",
@@ -10,11 +10,11 @@
     "static/media/Netflix_Logo_PMS.png": "/tailwindnetflix/static/media/Netflix_Logo_PMS.303904f75553a51bbf31.png",
     "static/media/tv.png": "/tailwindnetflix/static/media/tv.0049bc70babc1f94cf88.png",
     "index.html": "/tailwindnetflix/index.html",
-    "main.fc1d8ec2.css.map": "/tailwindnetflix/static/css/main.fc1d8ec2.css.map",
-    "main.c7464f4b.js.map": "/tailwindnetflix/static/js/main.c7464f4b.js.map"
+    "main.f7d0086f.css.map": "/tailwindnetflix/static/css/main.f7d0086f.css.map",
+    "main.165ffb9d.js.map": "/tailwindnetflix/static/js/main.165ffb9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1d8ec2.css",
-    "static/js/main.c7464f4b.js"
+    "static/css/main.f7d0086f.css",
+    "static/js/main.165ffb9d.js"
   ]
 }
