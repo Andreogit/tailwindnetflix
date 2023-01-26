@@ -36,18 +36,19 @@ function DownloadAndWatch() {
               <img src={mobile} alt="mobile" />
             </div>
             <div className="download border-2 border-[#333] rounded-[20px] flex bg-black
-         items-center absolute bottom-[15%] max-[950px]:bottom-[5rem]  px-3 py-2 z-10 w-[20rem]
+         items-center absolute bottom-[15%] max-[950px]:bottom-[5rem] px-3 py-2 z-10 w-[20rem]
          max-[600px]:bottom-16
           max-[550px]:text-[1.1rem]
           max-[550px]:w-[50%]
           max-[420px]:bottom-8
           max-[320px]:bottom-4
          ">
-              <div className="imagecontainer flex flex-shrink-0 flex-grow-0 h-[5rem] mr-[1rem]
+              <div className="imagecontainer flex flex-shrink-0 flex-grow-0 h-[5rem] mr-[.6rem]
               max-[600px]:h-[4rem]
               max-[450px]:h-[3rem]
+              'max-w-[100px] md:max-w-[50px]'
               ">
-                <img src={boxshot} alt="" />
+                <img src={boxshot} alt="stranger things" />
               </div>
               <div className="text">
                 <h1 className='font-bold
