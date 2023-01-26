@@ -2,7 +2,7 @@ import { React } from 'react'
 import tv from '../Assets/tv.png'
 function OpenOnTv() {
   return (
-    <div className='px-[45px] py-[45px] border-b-[8px] border-[#222]'>
+    <div className='px-[45px] py-[45px] max-[500px]:px-2 border-b-[8px] border-[#222]'>
       <div className="container flex max-w-[1100px] m-auto items-center justify-between
       max-[950px]:flex-wrap
       ">

@@ -2,10 +2,10 @@ import { React } from 'react'
 import img from '../Assets/forkids.png'
 function KidsProfiles() {
   return (
-    <div className='flex min-[1500px]:pl-[200px] border-b-8 py-12 border-[#222] '>
-      <div className="container flex flex-row-reverse justify-between items-center min-[1600px]:justify-center max-[950px]:flex-col m-auto
+    <div className='flex border-b-8 py-12 px-12 max-[500px]:px-2 border-[#222]'>
+      <div className="container flex flex-row-reverse justify-around min-[1600px]:justify-center items-center max-[950px]:flex-col m-auto
     ">
-        <div className="text w-[50%] 
+        <div className="text max-w-[500px] min-[1600px]:ml-10
       max-[950px]:w-full max-[950px]:px-4 max-[950px]:mb-4
       max-[350px]:mb-4
       ">
@@ -17,7 +17,7 @@ function KidsProfiles() {
         '>
             Створюйте профілі для дітей.
           </h1>
-          <h2 className='text-[1.6rem] m-auto leading-[1.25] max-w-[500px]
+          <h2 className='text-[1.6rem] max-[950px]:m-auto leading-[1.25] max-w-[500px]
         max-[950px]:pr-0
         max-[950px]:text-center
         max-[1300px]:text-[1.4rem]
@@ -27,8 +27,8 @@ function KidsProfiles() {
             Ваші діти зможуть мандрувати країною фантазії разом з улюбленими персонажами в спеціальних профілях, які входять у вартість підписки.
           </h2>
         </div>
-        <div className="imgcontainer w-[80%] max-[400px]:w-full">
-          <img src={img} alt="mobile" />
+        <div className="imgcontainer w-[40%] max-[950px]:w-full">
+          <img src={img} className='max-[950px]:m-auto' alt="mobile" />
         </div>
       </div>
     </div>

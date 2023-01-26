@@ -32,7 +32,7 @@ function Faq() {
     },
   ]
   return (
-    <div className='m-auto max-w-[1800px] pt-12 m-auto border-b-[8px] border-[#222]'>
+    <div className='m-auto max-w-[1800px] pt-12 border-b-[8px] border-[#222]'>
       <h1 className='text-[3.1rem] font-[600] text-center mb-8'
       >Поширені запитання</h1>
       <ul className='max-w-[825px] m-auto mb-14 px-4 max-[500px]:px-0'>

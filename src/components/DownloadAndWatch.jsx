@@ -4,14 +4,14 @@ import boxshot from '../Assets/boxshot.png'
 import icon from '../Assets/download-icon.gif'
 function DownloadAndWatch() {
   return (
-    <div className='DownloadAndWatch flex min-[1600px]:px-[20%] pl-[10%] pb-10 pr-[15%] max-[950px]:px-0 py-[20px] border-b-8 border-[#222] relative'>
-      <div className="container flex flex-row-reverse m-auto justify-between items-center 
+    <div className='DownloadAndWatch border-b-8 border-[#222]'>
+      <div className="container flex flex-row-reverse px-[70px] py-[25px] max-[500px]:px-2 justify-evenly items-center relative 
       min-[1600px]:justify-center
       max-[950px]:flex-col
       ">
-        <div className="text w-[50%] 
-        max-[950px]:w-full max-[950px]:px-4 max-[950px]:mb-4
-        max-[350px]:mb-4
+        <div className="text w-[500px] 
+        max-[950px]:w-full max-[950px]:px-4 max-[950px]:mb-14
+        max-[400px]:mb-20
         ">
           <h1 className='text-[3rem] leading-[1.1] mb-6 font-bold 
           max-[950px]:text-center

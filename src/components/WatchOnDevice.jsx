@@ -2,7 +2,7 @@ import { React } from 'react'
 import devicepile from '../Assets/device-pile.png'
 function WatchOnDevice() {
   return (
-    <div className='flex border-b-8 px-12 overflow-hidden py-12 border-[#222] '>
+    <div className='flex border-b-8 px-12 max-[500px]:px-2 overflow-hidden py-12 border-[#222] '>
       <div className="container flex flex-row justify-between items-center min-[1600px]:justify-center max-[950px]:flex-col m-auto
     ">
         <div className="text min-w-[420px] 
