@@ -1,6 +1,6 @@
 # Netflix website build
 
-[![Netflix Website](https://lh3.googleusercontent.com/u/1/drive-viewer/AFDK6gOT-5Lb29GXbQcA7gDfaHNaOGBPfQYoJj1p46eBDGzFA8Y9sOt92iiNafKYz0Wv6NQyz7zINPfW1f9N9Fpj8LCFw6InmQ=w1868-h903)](https://andreogit.github.io/tailwindnetflix/)
+[![Netflix Website](https://firebasestorage.googleapis.com/v0/b/justforstorage-34982.appspot.com/o/netflixlogo.png?alt=media&token=51ba33a9-8b65-4e7d-9859-d52dbaab8eb2)](https://andreogit.github.io/tailwindnetflix/)
 
 ## Built with
 
